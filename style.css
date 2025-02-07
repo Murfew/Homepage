@@ -10,7 +10,8 @@ header {
   content: "";
   position: absolute;
   background-color: deepskyblue;
-  transform: skewY(-8deg) translateY(-30%);
+  transform: skewY(-8deg) translateY(-30%) scaleY(130%) rotateX(30deg);
   height: 400px;
   width: 100%;
+  z-index: -1;
 }
