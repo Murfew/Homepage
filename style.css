@@ -1,6 +1,7 @@
 body {
   margin: 0;
   font-family: "Roboto";
+  color: dimgray;
 }
 
 header {
@@ -33,4 +34,6 @@ h4,
 h5,
 h6 {
   font-family: "Playfair Display";
+  font-weight: normal;
+  color: black;
 }
