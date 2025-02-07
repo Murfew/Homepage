@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+}
+
+header {
+  position: relative;
+}
+
+.portrait::before {
+  content: "";
+  position: absolute;
+  background-color: deepskyblue;
+  transform: skewY(-8deg) translateY(-30%);
+  height: 400px;
+  width: 100%;
+}
