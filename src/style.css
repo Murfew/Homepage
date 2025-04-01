@@ -12,25 +12,30 @@ h4,
 h5,
 h6 {
   font-family: "Playfair Display";
-}
-
-body {
-  width: 100%;
-  overflow-x: hidden;
+  font-weight: normal;
 }
 
 .image-wrapper {
   position: relative;
   width: 100%;
   padding: 3rem;
-  overflow: hidden;
 }
 
 .image-wrapper img {
   height: auto;
   width: 100%;
-  margin: 0 auto;
-  display: block;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.image-wrapper h1 {
+  position: absolute;
+  transform: translateY(-100%);
+  font-size: 20vw;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  padding: 0 1.5rem;
+  word-wrap: break-word;
+  white-space: normal;
 }
 
 .image-wrapper::before {
