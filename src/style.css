@@ -51,7 +51,8 @@ h6 {
 }
 
 #about-me h2,
-#my-work h2 {
+#my-work h2,
+#contact-me h2 {
   text-align: center;
   font-size: 12vw;
   margin-bottom: 1.5rem;
@@ -63,13 +64,15 @@ h6 {
   color: #747474;
 }
 
-#about-me .icons {
+#about-me .icons,
+#contact-me .icons {
   display: flex;
   justify-content: center;
   margin: 1.5rem 0 10rem 0;
 }
 
-#about-me .icons img {
+#about-me .icons img,
+#contact-me .icons img {
   height: 10vw;
   width: auto;
   margin-right: 2rem;
@@ -131,4 +134,31 @@ h6 {
   color: white;
   font-size: 12vw;
   padding: 3rem;
+}
+
+#contact-me {
+  background-color: #008dba;
+  color: white;
+  padding-top: 2rem;
+}
+
+#contact-me img {
+  display: block;
+}
+
+#contact-me p {
+  padding: 0 3rem;
+}
+
+#contact-me p:first-of-type {
+  font-size: 5vw;
+  margin-bottom: 3rem;
+}
+
+#contact-me p:not(:first-of-type) {
+  font-size: 4vw;
+}
+
+#contact-me .icons {
+  margin: 4rem 0;
 }
