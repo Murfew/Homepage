@@ -19,6 +19,7 @@ h6 {
   position: relative;
   width: 100%;
   padding: 3rem;
+  overflow: hidden;
 }
 
 .image-wrapper img {
@@ -30,7 +31,7 @@ h6 {
 .image-wrapper h1 {
   position: absolute;
   transform: translateY(-100%);
-  font-size: 20vw;
+  font-size: 10rem;
   color: white;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   padding: 0 1.5rem;
@@ -54,13 +55,13 @@ h6 {
 #my-work h2,
 #contact-me h2 {
   text-align: center;
-  font-size: 12vw;
+  font-size: 6rem;
   margin-bottom: 1.5rem;
 }
 
 #about-me p {
   padding: 0 3rem;
-  font-size: 6vw;
+  font-size: 2.75rem;
   color: #747474;
 }
 
@@ -73,8 +74,9 @@ h6 {
 
 #about-me .icons img,
 #contact-me .icons img {
-  height: 10vw;
-  width: auto;
+  height: auto;
+  width: 10%;
+  max-width: 100px;
   margin-right: 2rem;
 }
 
@@ -87,6 +89,7 @@ h6 {
 #my-work .project {
   margin-bottom: 10rem;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  width: 100%;
   max-width: 500px;
 }
 
@@ -99,22 +102,25 @@ h6 {
 }
 
 #my-work .project .info h3 {
-  font-size: 7vw;
+  font-size: 3rem;
   width: fit-content;
+  max-width: 100%;
 }
 
 #my-work .project .info .icons {
   width: fit-content;
+  max-width: 30%;
 }
 
 #my-work .project .info p {
-  font-size: 4vw;
+  font-size: 1.75rem;
   margin-top: 1rem;
 }
 
 #my-work .icons img {
-  height: 7vw;
-  width: auto;
+  height: auto;
+  width: 40%;
+  max-width: 60px;
 }
 
 #my-work .icons img:first-of-type {
@@ -122,8 +128,9 @@ h6 {
 }
 
 #my-work .img-placeholder {
-  width: 500px;
-  height: 400px;
+  width: 100%;
+  max-width: 500px;
+  min-height: calc(100vh / 3);
   background-color: cornflowerblue;
   display: flex;
   align-items: center;
@@ -132,7 +139,7 @@ h6 {
 #my-work .project .img-placeholder p {
   font-family: "Playfair Display";
   color: white;
-  font-size: 12vw;
+  font-size: 4.5rem;
   padding: 3rem;
 }
 
@@ -144,6 +151,8 @@ h6 {
 
 #contact-me img {
   display: block;
+  width: 100%;
+  height: auto;
 }
 
 #contact-me p {
@@ -151,12 +160,12 @@ h6 {
 }
 
 #contact-me p:first-of-type {
-  font-size: 5vw;
+  font-size: 2.25rem;
   margin-bottom: 3rem;
 }
 
 #contact-me p:not(:first-of-type) {
-  font-size: 4vw;
+  font-size: 1.75rem;
 }
 
 #contact-me .icons {
