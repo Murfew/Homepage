@@ -47,7 +47,7 @@ h2 {
 .image-wrapper h1 {
   position: absolute;
   transform: translateY(-100%);
-  font-size: 4rem;
+  font-size: 20vw;
   color: white;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   padding: 0 1rem;
@@ -95,6 +95,7 @@ h2 {
 
 .project {
   width: 80%;
+  max-width: 300px;
   margin-bottom: 6rem;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
@@ -156,4 +157,14 @@ h2 {
 
 #contact-me img {
   margin-top: 2.5rem;
+}
+
+@media (width >= 375px) {
+  #about-me {
+    margin-bottom: 3rem;
+  }
+
+  #about-me p {
+    margin-bottom: 2rem;
+  }
 }
