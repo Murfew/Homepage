@@ -81,6 +81,9 @@ h2 {
 
 #about-me {
   margin-bottom: 6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #about-me p {
@@ -157,6 +160,7 @@ h2 {
 
 #contact-me img {
   margin-top: 2.5rem;
+  width: 100%;
 }
 
 @media (width >= 375px) {
@@ -168,3 +172,5 @@ h2 {
     margin-bottom: 2rem;
   }
 }
+
+@media (width);
