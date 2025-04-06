@@ -145,23 +145,22 @@ h2 {
   padding-top: 1rem;
 }
 
-#contact-me > p {
+#contact-me .info > p {
   padding: 0 1.5rem;
 }
 
-#contact-me > p:first-of-type {
+#contact-me .info > p:first-of-type {
   font-size: 1.125rem;
   margin-bottom: 1.5rem;
 }
 
-#contact-me > p:not(first-of-type),
+#contact-me .info > p:not(first-of-type),
 #contact-me div p {
   font-size: 0.875rem;
 }
 
-#contact-me div {
+#contact-me div:not(.info) {
   display: flex;
-  align-items: center;
   margin: 1.5rem 1.5rem;
 }
 
