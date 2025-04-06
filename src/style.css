@@ -214,4 +214,47 @@ h2 {
   #my-work h2 {
     text-align: left;
   }
+
+  #contact-me {
+    display: flex;
+  }
+
+  #contact-me .info {
+    margin: 2rem;
+    max-width: 50%;
+  }
+
+  #contact-me .info p {
+    padding: 0;
+  }
+
+  #contact-me .info div {
+    margin-left: 0;
+  }
+
+  #contact-me .info div:nth-of-type(2) {
+    margin-bottom: 0;
+  }
+
+  #contact-me .info .icons {
+    justify-content: start;
+    margin-top: 1.5rem;
+  }
+
+  #contact-me .info .icons img {
+    margin-top: 0;
+  }
+
+  #contact-me .info .icons img:first-of-type {
+    margin-left: 0;
+  }
+
+  #contact-me h2 {
+    text-align: left;
+  }
+
+  #contact-me > img {
+    margin: 2rem;
+    width: 40%;
+  }
 }
