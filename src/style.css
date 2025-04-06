@@ -187,4 +187,32 @@ h2 {
 }
 
 @media (width >= 768px) {
+  #projects-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4rem 2rem;
+  }
+
+  #my-work {
+    max-width: 80%;
+    margin: 0 auto;
+    margin-bottom: 10rem;
+  }
+
+  .project {
+    width: 100%;
+    margin-bottom: 0;
+  }
+
+  .project:nth-of-type(even) {
+    justify-self: right;
+  }
+
+  .project:nth-of-type(odd) {
+    justify-self: left;
+  }
+
+  #my-work h2 {
+    text-align: left;
+  }
 }
